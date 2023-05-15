@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+.nav-link.active {
+  color: orangered !important;
+  border: none !important;
+  border-bottom: 1px solid orangered !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+}
+.nav-pills {
+  background-color: transparent !important;
+}
+.nav-link {
+  color: white !important;
+}
+.nav-link:hover {
+  border: none !important;
+}
+.slide-image {
+  width: 100%;
+}
+.swipnav-main {
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 500px) {
+  .nav {
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .nav-item {
+    width: 50px !important;
+    font-size: 7px !important;
   }
-  to {
-    transform: rotate(360deg);
+  .nav-link {
+    padding: 5px 11px !important;
+    font-size: 7px !important;
+  }
+  .logo-image {
+    width: 40px;
+  }
+  .slide-image {
+    height: 400px;
+  }
+  .client-heading {
+    font-size: 8px;
+  }
+  .welcome {
+    font-size: 15px !important;
+  }
+  .lorem-text {
+    font-size: 8px !important;
+  }
+  .learn-more-btn,
+  .get-started-btn {
+    font-size: 12px !important;
+    padding: 5px 8px !important;
+  }
+  .inner-content-main {
+    top: 23% !important;
+    width: 72% !important;
+  }
+  .monitor-image {
+    width: 80%;
+  }
+  .monitor-main {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 }

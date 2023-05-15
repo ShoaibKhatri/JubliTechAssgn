@@ -1,0 +1,64 @@
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 15px !important;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  width: 40px !important;
+  color: white !important;
+  background: orangered !important;
+  padding: 10px !important;
+}
+
+.swiper-button-disabled {
+  color: rgb(0, 0, 0) !important;
+  background-color: rgba(128, 128, 128, 0.7) !important;
+}
+
+.single-slide-main {
+  display: grid;
+}
+
+.inner-content-main {
+  position: absolute;
+  z-index: 2;
+  top: 32%;
+  color: white;
+  width: 80%;
+  justify-self: center;
+}
+.client-heading {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  padding: 10px;
+}
+.welcome {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.lorem-text {
+  font-size: 13px;
+  padding: 10px;
+  color: rgb(147, 146, 146);
+}
+.btns-main {
+  display: flex;
+  justify-content: center;
+}
+.get-started-btn {
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+}
+.learn-more-btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px 50px;
+  border: 1px solid whitesmoke;
+}

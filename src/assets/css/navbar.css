@@ -1,0 +1,11 @@
+.navbar-main {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
